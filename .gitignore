@@ -1,0 +1,40 @@
+﻿## .NET Core
+bin/
+obj/
+*.csproj.user
+*.sln.docstates
+*.user
+*.userosscache
+*.suo
+*.cache
+
+## Visual Studio
+.vs/
+*.vs/
+*.vscode/
+
+## SQL Server
+*.mdf
+*.ldf
+*.ndf
+
+## OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+.BIN/
+
+## NuGet
+packages/
+*.nupkg
+
+## User Secrets (NEVER commit these!)
+appsettings.Development.json
+appsettings.Staging.json
+appsettings.Production.json
+secrets.json
+**/secrets.json
+
+## Build artifacts
+[Bb]in/
+[Oo]bj/
