@@ -38,7 +38,7 @@
 - ✅ **Cross-cutting Concerns:** MediatR pipelines for validation, logging, authorization
 
 **Implementation:**
-```csharp
+
 // Commands (Write) → Use repositories for domain entity operations
 public class CreateProductCommandHandler : IRequestHandler<CreateProductCommand, int>
 {
@@ -52,7 +52,7 @@ public class GetProductByIdQueryHandler : IRequestHandler<GetProductByIdQuery, P
     private readonly ApplicationDbContext _context; // Direct access for performance
     // Returns DTO directly, no domain entity loading
 }
-
+'''
 
 -----
 
