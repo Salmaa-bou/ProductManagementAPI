@@ -53,6 +53,9 @@ public class GetProductByIdQueryHandler : IRequestHandler<GetProductByIdQuery, P
     // Returns DTO directly, no domain entity loading
 }
 
+
+-----
+
 ✅ Commands need domain entities: Business logic requires full entity with methods
 ✅ Queries need performance: Direct projection avoids unnecessary entity materialization
 ✅ Single Responsibility: Handlers orchestrate, repositories persist
